@@ -8,7 +8,7 @@ Written in [AutoIt](https://www.autoitscript.com/site/autoit/downloads/) script,
 
 ## Usage
 
-1. Download [AutoIt](https://www.autoitscript.com/site/autoit/downloads/) and compile the script `ContADS.aus`, this will create the exectuable `ContADS.exe` in the same directory; the copy the executable to the machine where `ATLAS Data Server` is installed.
+1. Download [AutoIt](https://www.autoitscript.com/site/autoit/downloads/) and compile the script `ContADS.au3`, this will create the exectuable `ContADS.exe` in the same directory; the copy the executable to the machine where `ATLAS Data Server` is installed.
 2. Copy the raw telemetry files - both `.raw` and corresponding `.raw_tm` files into a local directory where the `ATLAS Data Server` is installed, e.g. `C:\raw\`
 3. Create a `.txt` file which contains the list of telemetry files to be replayed, e.g. `day1.txt:`
    ```
@@ -20,7 +20,6 @@ Written in [AutoIt](https://www.autoitscript.com/site/autoit/downloads/) script,
    ...
    ```
 4. Run `ContADS.exe day1.txt`
-5. Start `ATLAS Data Server`
 
 ## Notes
 - `ATLAS Data Server` should already be configured to play telemetry files.

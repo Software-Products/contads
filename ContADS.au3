@@ -50,7 +50,7 @@ Global $hFile = FileOpen($LogDir & "\ContADSLog.log", 1)
 Global $sLogMsg = ""
 
 ; Run ADS
-Run("C:\Program Files (x86)\McLaren Electronic Systems\ATLAS 9\Bin\AtlasDataServer.exe")
+Run("C:\Program Files (x86)\McLaren Applied Technologies\ATLAS Data Server\Bin\AtlasDataServer.exe")
 
 ; Wait for ADS main window
 WinWaitActive("Atlas Data Server")
